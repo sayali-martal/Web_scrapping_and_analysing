@@ -17,7 +17,7 @@ This project aim towards collecting data from https://fundrazr.com/ for category
 1. Preprocessing
   a. Covert numerical data into integers using regular expressions.
   b. Remove redundant data like "campaign title" data.
-  c. Create dependent variable with use of "percent_complete" column. If percent_complete by the campaign is 100% or more, y variable will      be 1 or else it'll be 0.
+  c. Create dependent variable with use of "percent_complete" column. If percent_complete by the campaign is 100% or more, y variable will be 1 or else it'll be 0.
   d. Divide the data in training set and test data and scale it.
 2. Model testing
-  a. Amongst logistic regression, KNN, SVM, naive bayes, random forest and xgboost; xgboost has performed best with accuracy of --------------------------.
+  Amongst logistic regression, KNN, SVM, naive bayes, random forest and xgboost; xgboost has performed best with accuracy of 81% with test dataset.
